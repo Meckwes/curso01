@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <nav>
+        <h1>Formulário Para Cadastrar dos Alunos IEL CE</h1>
+        <!--Tag de navegação-->
+        <a href="home.html">Home</a>
+        <a href="home.html">Portal do Aluno</a>
+        <a href="home.html">Edital</a>
+        <a href="formatura.html">Formatura</a>
+        <style>
+            .form-group button {
+                padding: 10px 100px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        </style>
+    </nav>
+</head>
+
+<body>
+    <br>
+    <div>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required><br>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="cpf">CPF:</label>
+            <input type="text" id="CPF" name="cpf" required><br>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br>
+        </form>
+    </div>
+    <div>
+        <Form>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+        </Form>
+    </div>
+    <div>
+        <for>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required><br>
+        </for>
+    </div>
+    <div>
+        <form>
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="CE">Fortaleza</option>
+                <option value="PR">Curitiba</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select><br>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade" required><br>
+        </form>
+    </div>
+    <div>
+        <form>
+            <label for="turno">Turno:</label>
+            <select id="turno" name="turno">
+                <option value="manha">Manhã</option>
+                <option value="tarde">Tarde</option>
+                <option value="noite">Noite</option>
+            </select>
+        </form>
+    </div>
+    <div class="form-group">
+        <label>Linguagens:</label>
+        <div class="checkbox-group">
+            <input type="checkbox" id="html" name="linguagem" value="html">
+            <label for="html">HTML</label>
+            <input type="checkbox" id="css" name="linguagem" value="css">
+            <label for="css">CSS</label>
+            <input type="checkbox" id="java" name="linguagem" value="java">
+            <label for="java">Java</label>
+        </div><br><br>
+        <div class="form-group">
+            <button type="submit">Enviar</button>
+        </div>
+    </div>
+    <div><br>
+        <br><br>
+        <footer>
+            MECK 2024 Todos os direitos reservados
+            <br>
+            <a href="https://lms.iel-ce.org.br/login/esqueci_minha_senha.php"> Cookies</a>
+            <br>
+        </footer>
+    </div>
+</body>
+
+</html>
